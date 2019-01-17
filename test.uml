@@ -1,0 +1,33 @@
+@startuml
+start
+if ("depinde ? ?") then "desigur"
+  "Text"
+else "nu cred"
+  "Text 2"
+endif
+stop
+start
+while ("data neunss")
+  "read citeste"
+endwhile
+stop
+start
+stop
+
+start 
+ "Nu,evident" "DA" repeat "a oac oac aoc"
+until ("cevadsa as dascea")
+stop
+
+
+start1
+"instrucntiune 1 "
+stop1
+clasa "Ceva" {
+  "int x,y,z";
+   "void SetX(int xx)";
+}
+start1
+stop1
+
+@enduml
